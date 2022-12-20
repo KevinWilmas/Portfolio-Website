@@ -57,7 +57,7 @@ const pushRouterMobile = (event, route) => {
       </ul>
     </div>
   </div>
-  <div class="menu hidden absolute top-0 bottom-0 left-0 right-0 bg-black">
+  <div class="menu hidden absolute top-0 bottom-0 left-0 right-0 bg-black z-50">
     <div class="flex justify-center w-full pt-20">
       <span
         class="text-xl text-white absolute top-4 right-4 cursor-pointer"
