@@ -26,7 +26,7 @@ const pushRouterMobile = (event, route) => {
 
 <template>
   <div
-    class="w-full h-28 bg-transparent border-b border-primary-a flex items-center p-4 justify-between fixed top-0"
+    class="w-full h-28 bg-primary-b border-b border-primary-a flex items-center p-4 justify-between fixed top-0 z-40"
   >
     <div class="w-10 h-10">
       <img src="../assets/img/icons8-k-96.png" alt="Icon" />
@@ -57,7 +57,7 @@ const pushRouterMobile = (event, route) => {
       </ul>
     </div>
   </div>
-  <div class="menu hidden absolute top-0 bottom-0 left-0 right-0 bg-black z-50">
+  <div class="menu hidden fixed top-0 bottom-0 left-0 right-0 bg-black z-50">
     <div class="flex justify-center w-full pt-20">
       <span
         class="text-xl text-white absolute top-4 right-4 cursor-pointer"

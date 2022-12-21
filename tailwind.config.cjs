@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         primary: {
           a: "#66bfbf",
-          b: "#e0ebe8"
+          b: "#e0ebe8",
+          c: "#1b7f69"
         }
       },
       fontFamily: {
