@@ -21,14 +21,8 @@ import MySkills from "@/modules/profile/components/mySkills.vue"
       </p>
 
       <div class="mt-8 flex justify-center">
-        <router-link to="/contact" custom>
-          <a
-            class="bg-primary-a w-52 block rounded-lg py-3 px-4 text-primary-c"
-            @click="navigate"
-            role="link"
-          >
-            CONTACT ME
-          </a>
+        <router-link to="/contact" custom v-slot="{ navigate }">
+          <a class="btn" @click="navigate" role="link"> CONTACT ME </a>
         </router-link>
       </div>
     </div>

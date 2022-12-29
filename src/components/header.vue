@@ -29,7 +29,9 @@ const pushRouterMobile = (event, route) => {
     class="w-full h-28 bg-primary-b border-b border-primary-a flex items-center p-4 justify-between fixed top-0 z-40"
   >
     <div class="w-10 h-10">
-      <img src="../assets/img/icons8-k-96.png" alt="Icon" />
+      <RouterLink to="/profile"
+        ><img src="../assets/img/icons8-k-96.png" alt="Icon"
+      /></RouterLink>
     </div>
     <div class="sm:hidden" @click.prevent="openMenu($event)">
       <i class="uil uil-bars text-3xl text-primary-a"></i>
@@ -40,19 +42,19 @@ const pushRouterMobile = (event, route) => {
           class="mx-4 cursor-pointer headerOptionActive"
           @click="pushRouterMobile($event, 'profile')"
         >
-          Profile
+          <RouterLink to="/profile"> Profile</RouterLink>
         </li>
         <li
           class="mx-4 cursor-pointer"
           @click="pushRouterMobile($event, 'work')"
         >
-          Work
+          <RouterLink to="/work"> Work</RouterLink>
         </li>
         <li
           class="mx-4 cursor-pointer"
           @click="pushRouterMobile($event, 'contact')"
         >
-          Contact
+          <RouterLink to="/contact"> Contact</RouterLink>
         </li>
       </ul>
     </div>
@@ -70,19 +72,19 @@ const pushRouterMobile = (event, route) => {
           class="my-4 cursor-pointer"
           @click="pushRouterMobile($event, 'profile')"
         >
-          Profile
+          <RouterLink to="/profile"> Profile</RouterLink>
         </li>
         <li
           class="my-4 cursor-pointer"
           @click="pushRouterMobile($event, 'work')"
         >
-          Work
+          <RouterLink to="/work"> Work</RouterLink>
         </li>
         <li
           class="my-4 cursor-pointer"
           @click="pushRouterMobile($event, 'contact')"
         >
-          Contact
+          <RouterLink to="/contact"> Contact</RouterLink>
         </li>
       </ul>
     </div>

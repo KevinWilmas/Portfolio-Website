@@ -35,6 +35,7 @@ import Footer from "./components/footer.vue"
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -45,5 +46,6 @@ import Footer from "./components/footer.vue"
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+  cursor: pointer;
 }
 </style>

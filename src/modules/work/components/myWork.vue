@@ -74,7 +74,7 @@ onMounted(() => {
         <div class="text-box h-3/5 flex flex-col justify-center items-center">
           <h1 class="text-xl pt-3 font-bold text-white">Forkify</h1>
           <h1 class="text-white">Javascript</h1>
-          <p class="text-sm w-3/4 text-center pb-3">
+          <p class="text-sm w-11/12 text-center pb-3">
             In this project, you are able to search for recipes, bookmark them,
             and even create recipes yourself! This application utilizes external
             libraries, local storage, and more.
@@ -82,7 +82,7 @@ onMounted(() => {
           <a
             href="https://forkify-kevinwilmas.netlify.app/"
             class="btn cursor-pointer"
-            >View on Firebase</a
+            >View on Netlify</a
           >
         </div>
       </div>
@@ -105,7 +105,7 @@ onMounted(() => {
         <div class="text-box h-3/5 flex flex-col justify-center items-center">
           <h1 class="text-xl pt-3 font-bold text-white">Find A Coach</h1>
           <h1 class="text-white">Vue/Javascript</h1>
-          <p class="text-sm w-3/4 text-center pb-3">
+          <p class="text-sm w-11/12 text-center pb-3">
             This is a project where IT professionals can sign up to offer their
             services along with students being able to search for "Coaches".
             This project uses firebase to store the users and the requests.
@@ -113,7 +113,7 @@ onMounted(() => {
           <a
             href="https://find-a-coach-c3c4e.web.app/coaches"
             class="btn cursor-pointer"
-            >View on Netlify</a
+            >View on Firebase</a
           >
         </div>
       </div>
@@ -168,7 +168,7 @@ onMounted(() => {
         <div class="text-box h-3/5 flex flex-col justify-center items-center">
           <h1 class="text-xl pt-3 font-bold text-white">Bankist: Marketing</h1>
           <h1 class="text-white">Javascript</h1>
-          <p class="text-sm w-3/4 text-center pb-3">
+          <p class="text-sm w-11/12 text-center pb-3">
             This is the marketing website for the bankist appication. It
             utilizes many advanced javascript concepts. Take a look!
           </p>
@@ -195,7 +195,7 @@ onMounted(() => {
         <div class="text-box h-3/5 flex flex-col justify-center items-center">
           <h1 class="text-xl pt-3 font-bold text-white">Mapty</h1>
           <h1 class="text-white">Javascript</h1>
-          <p class="text-sm w-3/4 text-center pb-3">
+          <p class="text-sm w-11/12 text-center pb-3">
             In this Application you are able to track your running and your
             cycling locations and how much distace you covered. This app used
             geolocation, external libraries, local storage, and more!
@@ -226,7 +226,7 @@ onMounted(() => {
         <div class="text-box h-3/5 flex flex-col justify-center items-center">
           <h1 class="text-xl pt-3 font-bold text-white">Monster Slayer</h1>
           <h1 class="text-white">Vue/Javascript</h1>
-          <p class="text-sm w-3/4 text-center pb-3">
+          <p class="text-sm w-11/12 text-center pb-3">
             In this project you face a monster in which you are able to attack,
             special attack, or heal. The battle log can be found below the
             fight. Use your moves wisely!
@@ -257,7 +257,7 @@ onMounted(() => {
         <div class="text-box h-3/5 flex flex-col justify-center items-center">
           <h1 class="text-xl pt-3 font-bold text-white">User Projects</h1>
           <h1 class="text-white">Vue Composition API/Javascript</h1>
-          <p class="text-sm w-3/4 text-center pb-3">
+          <p class="text-sm w-11/12 text-center pb-3">
             This is a small project that stores active users with their project
             "to-do" items. You are able to filter the users along with their
             projects.
@@ -288,7 +288,7 @@ onMounted(() => {
         <div class="text-box h-3/5 flex flex-col justify-center items-center">
           <h1 class="text-xl pt-3 font-bold text-white">Pig Game</h1>
           <h1 class="text-white">Javascript</h1>
-          <p class="text-sm w-3/4 text-center pb-3">
+          <p class="text-sm w-11/12 text-center pb-3">
             This is fun game where you roll the dice to get the highest score,
             but if you roll a 1 then it switched to the other person and you
             lose your points. First to 100 wins.
@@ -319,7 +319,7 @@ onMounted(() => {
         <div class="text-box h-3/5 flex flex-col justify-center items-center">
           <h1 class="text-xl pt-3 font-bold text-white">Learning Resources</h1>
           <h1 class="text-white">Vue/Javascript</h1>
-          <p class="text-sm w-3/4 text-center pb-3">
+          <p class="text-sm w-11/12 text-center pb-3">
             Application where you are able to add and store resources. The
             resources are able to be viewed and you can visit each website.
           </p>
@@ -349,7 +349,7 @@ onMounted(() => {
         <div class="text-box h-3/5 flex flex-col justify-center items-center">
           <h1 class="text-xl pt-3 font-bold text-white">Products App</h1>
           <h1 class="text-white">Vue Composition API/Javascript</h1>
-          <p class="text-sm w-3/4 text-center pb-3">
+          <p class="text-sm w-11/12 text-center pb-3">
             Here is a simple project in which you are able to add products to a
             list and view details of the products.
           </p>
@@ -372,8 +372,6 @@ onMounted(() => {
 @media (min-width: 650px) {
   .container-heigth {
     height: 550px;
-  }
-  .picture {
   }
   .text-box {
     top: 10rem;
