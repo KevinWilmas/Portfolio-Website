@@ -10,7 +10,6 @@ const routes = [
   },
   ...workRoutes,
   ...contactRoutes,
-
   ...profileRoutes
 ]
 
