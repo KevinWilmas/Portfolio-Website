@@ -1,7 +1,9 @@
 <script setup></script>
 
 <template>
-  <div class="bg-primary-b h-96 relative container-heigth">
+  <div
+    class="bg-primary-b h-96 relative container-heigth z-50 profile-background"
+  >
     <div class="pt-28 w-full relative">
       <div class="relative justify-center flex items-center w-full z-20">
         <h1 class="font-Sacramento text-6xl font-bold text-primary-a mr-20">
@@ -69,5 +71,8 @@
     right: calc(50% - 350px);
     top: 100px;
   }
+}
+.profile-background {
+  bottom: 1px;
 }
 </style>

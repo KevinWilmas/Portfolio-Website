@@ -1,14 +1,16 @@
 <script setup></script>
 
 <template>
-  <div class="bg-primary-b h-52 w-full relative container-heigth">
+  <div
+    class="bg-primary-b h-52 w-full relative container-heigth z-50 contact-background"
+  >
     <div
-      class="background-class absolute flex items-center justify-center left-0 right-0 pt-0 bottom-0 h-52 top-0"
+      class="background-class absolute flex items-center justify-center left-0 right-0 pt-0 h-52 top-0"
     >
       <img
         src="../../../assets/img/Contact_background2.png"
         alt=""
-        class="top-0 w-auto bottom-0 left-0 right-0 justify-center"
+        class="top-0 w-auto left-0 right-0 justify-center"
       />
     </div>
     <div class="pt-28 w-full relative flex">
@@ -40,6 +42,9 @@
 .left-cloud,
 .right-cloud {
   transition: all 0.7s ease-in-out;
+}
+.contact-background {
+  bottom: 3px;
 }
 
 @media (min-width: 650px) {

@@ -5,8 +5,13 @@ import Footer from "./components/footer.vue"
 
 <template>
   <Header />
-  <div class="mt-28">
-    <router-view />
+  <div class="page-adjust">
+    <div class="absolute w-full bg-primary-b h-px z-50"></div>
+    <router-view v-slot="slotProps">
+      <transition name="route" mode="out-in">
+        <component :is="slotProps.Component"></component>
+      </transition>
+    </router-view>
   </div>
   <Footer />
 </template>
@@ -47,5 +52,31 @@ import Footer from "./components/footer.vue"
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
   cursor: pointer;
+}
+.page-adjust {
+  margin-top: 111px;
+}
+.route-enter-from {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+.route-leave-to {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+.route-enter-active {
+  transition: all 0.3s ease-in;
+}
+
+.route-leave-active {
+  transition: all 0.3s ease-out;
+}
+
+.route-enter-to,
+.route-leave-from {
+  opacity: 1;
+  transform: translateY(0);
 }
 </style>

@@ -22,11 +22,28 @@ const pushRouterMobile = (event, route) => {
   router.push(route)
   closeMenu()
 }
+
+// const obsCallback = function (entries, observer) {
+//   entries.array.forEach((entry) => {
+//     console.log(entry)
+//   })
+// }
+
+// const obsOptions = {
+//   root: null,
+//   threshold: 0.1
+// }
+
+// const observer = new IntersectionObserver(obsCallback, obsOptions)
+// observer.observe(section1)
 </script>
 
 <template>
   <div
     class="w-full h-28 bg-primary-b border-b border-primary-a flex items-center p-4 justify-between fixed top-0 z-40"
+  ></div>
+  <div
+    class="w-full h-28 bg-transparent border-b border-none flex items-center p-4 justify-between fixed top-0 header-adjust"
   >
     <div class="w-10 h-10">
       <RouterLink to="/profile"
@@ -34,7 +51,7 @@ const pushRouterMobile = (event, route) => {
       /></RouterLink>
     </div>
     <div class="sm:hidden" @click.prevent="openMenu($event)">
-      <i class="uil uil-bars text-3xl text-primary-a"></i>
+      <i class="uil uil-bars text-3xl text-primary-a pr-2"></i>
     </div>
     <div class="hidden sm:block">
       <ul class="flex text-gray-500">
@@ -59,7 +76,10 @@ const pushRouterMobile = (event, route) => {
       </ul>
     </div>
   </div>
-  <div class="menu hidden fixed top-0 bottom-0 left-0 right-0 bg-black z-50">
+
+  <div
+    class="menu hidden fixed top-0 bottom-0 left-0 right-0 bg-black mobile-menu"
+  >
     <div class="flex justify-center w-full pt-20">
       <span
         class="text-xl text-white absolute top-4 right-4 cursor-pointer"
@@ -95,7 +115,18 @@ const pushRouterMobile = (event, route) => {
 .active {
   display: block;
 }
-.headerOptionActive {
+/* .headerOptionActive {
+  @apply text-primary-a;
+} */
+.mobile-menu {
+  z-index: 80;
+}
+.header-adjust {
+  z-index: 70;
+}
+a:active,
+a:hover,
+a.router-link-active {
   @apply text-primary-a;
 }
 </style>

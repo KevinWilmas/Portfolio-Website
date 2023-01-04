@@ -4,8 +4,10 @@ import MyWork from "@/modules/work/components/myWork.vue"
 </script>
 
 <template>
-  <WorkHeader></WorkHeader>
-  <MyWork></MyWork>
+  <div>
+    <WorkHeader></WorkHeader>
+    <MyWork></MyWork>
+  </div>
 </template>
 
 <style scoped lang="css"></style>

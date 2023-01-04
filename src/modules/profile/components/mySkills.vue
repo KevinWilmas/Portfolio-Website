@@ -10,7 +10,12 @@ const moveImg = () => {
   if (imgPosition > imgHeight * 3) {
     imgPosition = 0
   }
-  contentImg.value.style.transform = `translateY(${imgPosition * -1}px)`
+  // console.log(contentImg)
+  // console.log(contentImg.value)
+  // console.log(contentImg.value.style)
+  if (contentImg.value) {
+    contentImg.value.style.transform = `translateY(${imgPosition * -1}px)`
+  }
 }
 
 onMounted(() => {
@@ -60,7 +65,9 @@ onMounted(() => {
         Have experience with the basic and core concepts of Vue Js along with
         the advanced ones. Familiarity with Options and Composition API. Check
         out the
-        <a class="paragraph-link" href="find-a-coach-c3c4e.web.app"
+        <a
+          class="paragraph-link"
+          href="https://find-a-coach-c3c4e.web.app/coaches"
           >Find A Coach</a
         >
         project which I worked on.
@@ -113,5 +120,9 @@ onMounted(() => {
 
 .paragraph-link {
   @apply text-primary-a underline;
+}
+.background-black {
+  background: black;
+  width: 100%;
 }
 </style>
