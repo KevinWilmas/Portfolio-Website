@@ -1,7 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router"
 import HomePage from "./modules/profile/view/index.vue"
-import ContactMe from "./modules/contact/view/index.vue"
-import MyWork from "./modules/work/view/index.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,8 +12,11 @@ const router = createRouter({
       path: "/profile",
       component: HomePage
     },
-    { path: "/contact", component: ContactMe },
-    { path: "/work", component: MyWork }
+    {
+      path: "/contact",
+      component: () => import("./modules/contact/view/index.vue")
+    },
+    { path: "/work", component: () => import("./modules/work/view/index.vue") }
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
