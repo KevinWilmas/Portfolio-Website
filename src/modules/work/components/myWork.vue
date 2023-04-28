@@ -130,6 +130,70 @@ onMounted(() => {
         >
           <a
             class="w-2/3 cursor-pointer overflow-hidden rounded-lg"
+            href="https://forum-app-kevinwilmas.netlify.app"
+          >
+            <img
+              class="picture"
+              src="../../../assets/img/Forum_App.png"
+              alt="Forum App Image"
+          /></a>
+          <div class="text-box h-3/5 flex flex-col justify-center items-center">
+            <h1 class="text-xl pt-3 font-bold text-white">Find A Coach</h1>
+            <h1 class="text-white">Vue.js CAPI</h1>
+            <p class="text-sm w-11/12 text-center pb-3">
+              Here is a forum application in which you can comment on posts,
+              edit your profile, and eventually create threads for yourself
+              along with many other features. Currently unfinished but one of my
+              bigger projects.
+            </p>
+            <a
+              href="https://forum-app-kevinwilmas.netlify.app"
+              class="btn cursor-pointer"
+              >View on Netlify</a
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-primary-g h-96 container-heigth w-full flex justify-center items-center"
+      >
+        <div
+          class="flex w-full container-heigth h-96 justify-center flex-col items-center py-4"
+        >
+          <a
+            class="w-2/3 cursor-pointer overflow-hidden rounded-lg"
+            href="https://los-angeles-mountains-kevinwilmas.netlify.app"
+          >
+            <img
+              class="picture"
+              src="../../../assets/img/LA_Mountains.png"
+              alt="Los Angeles Mountains Image"
+          /></a>
+          <div class="text-box h-3/5 flex flex-col justify-center items-center">
+            <h1 class="text-xl pt-3 font-bold text-white">Find A Coach</h1>
+            <h1 class="text-white">Vue.js CAPI</h1>
+            <p class="text-sm w-11/12 text-center pb-3">
+              Here is a sample marketing website for the Los Angeles mountains
+              that includes a carrousel.
+            </p>
+
+            <a
+              href="https://los-angeles-mountains-kevinwilmas.netlify.app"
+              class="btn cursor-pointer"
+              >View on Netlify</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="bg-primary-h h-96 container-heigth w-full flex justify-center items-center"
+      >
+        <div
+          class="flex w-full container-heigth h-96 justify-center flex-col items-center py-4"
+        >
+          <a
+            class="w-2/3 cursor-pointer overflow-hidden rounded-lg"
             href="https://bankist-kevinwilmas.netlify.app/"
           >
             <img
@@ -155,7 +219,7 @@ onMounted(() => {
         </div>
       </div>
       <div
-        class="bg-primary-g h-96 container-heigth w-full flex justify-center items-center"
+        class="bg-primary-i h-96 container-heigth w-full flex justify-center items-center"
       >
         <div
           class="flex w-full container-heigth h-96 justify-center flex-col items-center py-4"
@@ -187,7 +251,7 @@ onMounted(() => {
         </div>
       </div>
       <div
-        class="bg-primary-h h-96 container-heigth w-full flex justify-center items-center"
+        class="bg-primary-j h-96 container-heigth w-full flex justify-center items-center"
       >
         <div
           class="flex w-full container-heigth h-96 justify-center flex-col items-center py-4"
@@ -218,7 +282,7 @@ onMounted(() => {
         </div>
       </div>
       <div
-        class="bg-primary-i h-96 container-heigth w-full flex justify-center items-center"
+        class="bg-primary-k h-96 container-heigth w-full flex justify-center items-center"
       >
         <div
           class="flex w-full container-heigth h-96 justify-center flex-col items-center py-4"
@@ -249,7 +313,7 @@ onMounted(() => {
         </div>
       </div>
       <div
-        class="bg-primary-j h-96 container-heigth w-full flex justify-center items-center"
+        class="bg-primary-l h-96 container-heigth w-full flex justify-center items-center"
       >
         <div
           class="flex w-full container-heigth h-96 justify-center flex-col items-center py-4"
@@ -265,7 +329,7 @@ onMounted(() => {
           /></a>
           <div class="text-box h-3/5 flex flex-col justify-center items-center">
             <h1 class="text-xl pt-3 font-bold text-white">User Projects</h1>
-            <h1 class="text-white">Vue Composition API/Javascript</h1>
+            <h1 class="text-white">Vue CAPI</h1>
             <p class="text-sm w-11/12 text-center pb-3">
               This is a small project that stores active users with their
               project "to-do" items. You are able to filter the users along with
@@ -280,7 +344,37 @@ onMounted(() => {
         </div>
       </div>
       <div
-        class="bg-primary-k h-96 container-heigth w-full flex justify-center items-center"
+        class="bg-primary-e h-96 container-heigth w-full flex justify-center items-center"
+      >
+        <div
+          class="flex w-full container-heigth h-96 justify-center flex-col items-center py-4"
+        >
+          <a
+            class="w-2/3 cursor-pointer overflow-hidden rounded-lg"
+            href="https://market-app-kevinwilmas.netlify.app"
+          >
+            <img
+              class="picture"
+              src="../../../assets/img/The_Market_Place.png"
+              alt="Market App Image"
+          /></a>
+          <div class="text-box h-3/5 flex flex-col justify-center items-center">
+            <h1 class="text-xl pt-3 font-bold text-white">User Projects</h1>
+            <h1 class="text-white">Vue.js CAPI</h1>
+            <p class="text-sm w-11/12 text-center pb-3">
+              This is a simple project that demonstrates a fully functional
+              store. Add or remove products and see the prices/totals.
+            </p>
+            <a
+              href="https://market-app-kevinwilmas.netlify.app"
+              class="btn cursor-pointer"
+              >View on Netlify</a
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-primary-f h-96 container-heigth w-full flex justify-center items-center"
       >
         <div
           class="flex w-full container-heigth h-96 justify-center flex-col items-center py-4"
@@ -311,7 +405,7 @@ onMounted(() => {
         </div>
       </div>
       <div
-        class="bg-primary-l h-96 container-heigth w-full flex justify-center items-center"
+        class="bg-primary-g h-96 container-heigth w-full flex justify-center items-center"
       >
         <div
           class="flex w-full container-heigth h-96 justify-center flex-col items-center py-4"
@@ -343,7 +437,7 @@ onMounted(() => {
         </div>
       </div>
       <div
-        class="bg-primary-e h-96 container-heigth w-full flex justify-center items-center"
+        class="bg-primary-h h-96 container-heigth w-full flex justify-center items-center"
       >
         <div
           class="flex w-full container-heigth h-96 justify-center flex-col items-center py-4"
