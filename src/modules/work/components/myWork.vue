@@ -107,7 +107,7 @@ onMounted(() => {
           /></a>
           <div class="text-box h-3/5 flex flex-col justify-center items-center">
             <h1 class="text-xl pt-3 font-bold text-white">Find A Coach</h1>
-            <h1 class="text-white">Vue/Javascript</h1>
+            <h1 class="text-white">Vue.js Options API</h1>
             <p class="text-sm w-11/12 text-center pb-3">
               This is a project where IT professionals can sign up to offer
               their services along with students being able to search for
@@ -298,7 +298,7 @@ onMounted(() => {
           /></a>
           <div class="text-box h-3/5 flex flex-col justify-center items-center">
             <h1 class="text-xl pt-3 font-bold text-white">Monster Slayer</h1>
-            <h1 class="text-white">Vue/Javascript</h1>
+            <h1 class="text-white">Vue.js Options API</h1>
             <p class="text-sm w-11/12 text-center pb-3">
               In this project you face a monster in which you are able to
               attack, special attack, or heal. The battle log can be found below
@@ -329,7 +329,7 @@ onMounted(() => {
           /></a>
           <div class="text-box h-3/5 flex flex-col justify-center items-center">
             <h1 class="text-xl pt-3 font-bold text-white">User Projects</h1>
-            <h1 class="text-white">Vue CAPI</h1>
+            <h1 class="text-white">Vue.js CAPI</h1>
             <p class="text-sm w-11/12 text-center pb-3">
               This is a small project that stores active users with their
               project "to-do" items. You are able to filter the users along with
@@ -359,7 +359,7 @@ onMounted(() => {
               alt="Market App Image"
           /></a>
           <div class="text-box h-3/5 flex flex-col justify-center items-center">
-            <h1 class="text-xl pt-3 font-bold text-white">User Projects</h1>
+            <h1 class="text-xl pt-3 font-bold text-white">The Market Places</h1>
             <h1 class="text-white">Vue.js CAPI</h1>
             <p class="text-sm w-11/12 text-center pb-3">
               This is a simple project that demonstrates a fully functional
@@ -423,7 +423,7 @@ onMounted(() => {
             <h1 class="text-xl pt-3 font-bold text-white">
               Learning Resources
             </h1>
-            <h1 class="text-white">Vue/Javascript</h1>
+            <h1 class="text-white">Vue.js Options API</h1>
             <p class="text-sm w-11/12 text-center pb-3">
               Application where you are able to add and store resources. The
               resources are able to be viewed and you can visit each website.
@@ -453,7 +453,7 @@ onMounted(() => {
           /></a>
           <div class="text-box h-3/5 flex flex-col justify-center items-center">
             <h1 class="text-xl pt-3 font-bold text-white">Products App</h1>
-            <h1 class="text-white">Vue Composition API/Javascript</h1>
+            <h1 class="text-white">Vue.js CAPI</h1>
             <p class="text-sm w-11/12 text-center pb-3">
               Here is a simple project in which you are able to add products to
               a list and view details of the products.
